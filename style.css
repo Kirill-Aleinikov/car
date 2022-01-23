@@ -1,0 +1,401 @@
+html,body,p, ul{
+    padding: 0;
+    margin: 0;
+    
+}
+.block1{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    }
+    
+.text {
+    font-size: 16px;
+    font-family: "Poppins", Helvetica, Arial, sans-serif
+}
+.head{
+    background-image: url(./img/logo.jpg);
+    background-size: cover;
+    padding:0 0 660px 0;
+}
+.fixed{
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+}
+.bg-black{
+    background: black;
+}
+.color-white{
+    color: white;
+}
+.color-white li a{
+    color: white;
+}
+.h1 {
+    font-size: 60px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.h2 {
+    font-size: 44px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.h3 {
+    font-size: 34px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-weight: bolder;
+}
+.h4 {
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    line-height: 38px;
+    font-weight: 500;
+}
+.h5 {
+    font-size: 26px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.h6{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.h7{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.nav{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    font-size: 19px;
+    align-items: center;
+}
+.nav li {
+    margin-right: 60px;
+}
+.nav li a{
+    text-decoration: none;
+    font-size: 24px;
+}
+.nav h2{
+    margin-right: auto;
+}
+.navbar-custom{
+    padding: 20px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 10px 0 44px;
+    z-index: 999;
+}
+.menu-logo{
+    position: absolute;
+    left: 50px;
+    top: 25px;
+    
+}
+.menu-logo-right{
+    padding-top: 35px;
+} 
+.logo-top{
+    border-radius: 14%;
+    display: inline-block;
+    padding: 55px;
+    position: relative;
+    top: 510px;
+    left: 120px;
+    color:#fff;
+    font-size: 3em;
+    background: rgba(49, 51, 128, 0.8)
+}
+.logo-top a{
+    background:black;
+    color:#fff;
+    padding:22px 42px;
+    font-size: 23px;
+    text-decoration: none
+}
+.more {
+    background:black;
+    color:#fff;
+    font-size: 20px;
+    padding:20px 42px;
+    text-decoration: none;
+    font-family: Jost;
+}
+.more1{
+    background:#802e8f;
+    color:#fff;
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    cursor: pointer;
+    width: 30%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 14px 30px 14px 30px;
+    font-family: Jost;
+}
+.send{
+    background: black;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 16px 30px 23px;
+    font-family: Jost;
+    }
+
+.hr {
+    display: block;
+    border: none;
+    outline: none;
+    height: 1px;
+    width: 100%;
+    margin: 0 auto 15px;
+    clear: both;
+}
+.margin-left {
+    margin-left: 15px;
+}
+.margin-right{
+margin-right: 115px;
+}
+.block2{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+.bg{
+    background: rgba(82, 98, 99, 0.8);
+}
+.block-bot{
+    background-color: rgb(137, 186, 231,0.3);
+    padding: 35px 25px;
+    margin-top: -5px;
+}
+.qq{
+    width: 1640px;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.text-right { 
+    text-align: right; 
+}
+.text-left { 
+    text-align: left; 
+}
+.text-center { 
+    text-align: center; 
+}
+.padding{
+    padding-top: 90px;
+    padding-bottom: 160px;
+}
+.padding a {
+    padding: 18px 180px 18px 180px;
+}
+.padding-t-b{
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+.right {
+    float:right;
+    margin: 0 45px;
+}
+.position{
+    padding-right: 171px;
+    padding-top: 240px;
+}
+.block-calc{
+    list-style: none;
+    background-color: rgb(137, 186, 231);
+    margin-bottom: 15px;
+    padding: 10px 10px;
+    border-radius: 3px;
+    padding: 10px
+}
+.list-style-none{
+    list-style: none;
+}
+.pictureCalc{
+padding-left: 85px;
+}
+.margin-block{
+    margin-top: 75px;
+    margin-bottom: 85px;
+}
+.padding-bot-black-bg{
+    padding-bottom: 880px
+}
+.container {
+    position: relative;
+    color: white;
+    list-style: none;
+}
+.text-img-1 {
+    position: absolute;
+    top: 575px;
+    left: 10px;
+}
+.text-img-2 {
+    position: absolute;
+    top: 315px;
+    left: 926px;
+}
+.text-img-3 {
+    position: absolute;
+    left: 893px;
+    top: 670px;
+}
+.Mercedes-G-Class{
+    position: absolute;
+    padding-top: 66px;
+    left: -40px;
+}
+.Toyota-4Runner-SUV{
+    top: 66px;
+    position: absolute;
+    left: 878px;
+}
+.Mercedes-Benz-AMG-GT{
+    top: 412px;
+    position: absolute;
+    left: 878px;
+}
+.block3{
+    list-style: none;
+}
+.right-to-photo {
+    float: right;
+    margin: 55px 58px 0em 0em;
+    width: 55%;
+}
+.bg-under-text{
+    width: fit-content;
+}
+.qwe{
+    width: 96%;
+}
+.block4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style: none;
+    line-height: 29px;
+    padding-bottom : 60px;
+    justify-content: space-around;
+}
+.block4 li p{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 17px;
+    line-height: 45px
+}
+.block4 li h1{
+    font-size: 60px;
+    margin-bottom: auto;
+    color:#802e8f;
+    padding-bottom: 35px;
+}
+.block4 li {
+    padding: 0 60px;
+}
+.block4 a {
+    font-weight: 600;
+    font-size: 17px;
+}
+.no-line{
+    opacity: 0;
+}
+.bg-last-block{
+    background:#0095eb;
+}
+.left-bottom{
+    float: left;
+    margin: 0 1% 40px;
+}
+.left-bottom p {
+    font-size: 28px;
+    line-height: 41px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.right-bottom{
+    float: right;
+    margin: 0px 7% 0px;
+}
+.right-bottom p{
+    font-size: 20px;
+    line-height: 10px;
+    font-weight: 600;
+}
+.call-bottom{
+    padding-top: 70px;
+}
+.call-bottom a{
+    padding-right: 40px;
+    font-size: 20px;
+}
+.display-center{
+    display: flex;
+    align-items: center;
+}
+.input{
+    padding: 25px;
+}
+.go-top{
+    cursor: pointer;
+    padding: 241px 0px 48px;
+}
+.right-bottom1{
+    float: right;
+}
+.right-bottom1 a{
+    font-size: 32px;
+    text-decoration: none;
+}
+.text-decoration{
+    text-decoration: none;
+}
+.scale {
+    display: inline-block; /* Строчно-блочный элемент */
+    overflow: hidden; /* Скрываем всё за контуром */
+   }
+   .scale img {
+    transition: 1.5s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+   }
+   .scale img:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб */
+   }
+.underline a:hover {
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    margin-bottom: -1px;
+}
+.underline p:hover{
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    margin-bottom: -1px;
+}
